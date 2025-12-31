@@ -1,1 +1,2 @@
 - DevOps Introduction (CI/CD basics)
+- DevOps Prerequisites & Environment Setup
