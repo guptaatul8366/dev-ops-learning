@@ -35,5 +35,5 @@ The goal is to understand *why DevOps is needed* and *how it improves software d
 ## Key Takeaways
 - DevOps improves speed, collaboration, and reliability
 - CI focuses on integrating code frequently
-- CD focuses on delivering software safely and consistently
+- CD focuses on delivering software safely and consistently.
 
