@@ -1,2 +1,3 @@
 - DevOps Introduction (CI/CD basics)
 - DevOps Prerequisites & Environment Setup
+- Virtualization & VM Setup (Vagrant, VirtualBox)
