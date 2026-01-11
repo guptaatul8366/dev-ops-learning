@@ -1,6 +1,63 @@
-- DevOps Introduction (CI/CD basics)
-- DevOps Prerequisites & Environment Setup
-- Virtualization & VM Setup (Vagrant, VirtualBox)
-- Linux Fundamentals (Commands, Permissions, Services, Package Management)
-- Git & GitHub (Versioning, Branching, Rollback, Tags, SSH)
+# DevOps Learning Journey – Atul Gupta
+
+This repository documents my step-by-step DevOps learning journey with hands-on practice and projects.
+
+## ✅ Completed Sections
+
+### 🔹 DevOps Introduction & CI/CD Basics
+- What is DevOps
+- SDLC and CI/CD pipelines
+- DevOps tools overview
+
+### 🔹 Prerequisites & Environment Setup
+- Linux installation
+- VirtualBox and Vagrant setup
+- SSH and networking basics
+
+### 🔹 Virtualization & VM Setup
+- Creating VMs using Vagrant
+- VM networking modes
+- Synced folders
+
+### 🔹 Linux Fundamentals
+- Linux file system
+- Users and permissions
+- Package management (apt, dnf)
+- systemctl and services
+
+### 🔹 Git & GitHub
+- Repository management
+- Branching strategies
+- Rollback and reset
+- Tags and versioning
+- Pull requests
+
+### 🔹 Section 6: Vagrant and Linux Servers
+- Single and Multi-VM Vagrant setups
+- Private IP, RAM and CPU configuration
+- Shell provisioning
+- Apache website hosting
+- WordPress setup (manual and automated)
+- Tomcat service using systemctl
+- Infrastructure as Code fundamentals
+
+### 🔹 Section 7: Variables, JSON and YAML
+- Variables in shell and Python
+- Python data structures
+- JSON format and parsing
+- YAML configuration files
+- DevOps configuration examples
+
+## 🚀 Upcoming Sections
+
+- Multi-tier DevOps Project (VProfile App)
+- Jenkins CI/CD Pipelines
+- Docker & Containerization
+- Ansible Automation
+- Cloud & Kubernetes
+
+## 🎯 Goal
+
+To build strong practical skills in DevOps and Cloud technologies and prepare for DevOps Engineer roles.
+
 
