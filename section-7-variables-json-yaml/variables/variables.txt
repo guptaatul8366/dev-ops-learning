@@ -1,0 +1,12 @@
+# Variable examples in shell
+
+NAME="Atul"
+AGE=22
+
+echo "My name is $NAME"
+echo "My age is $AGE"
+
+# Environment variable
+export APP_ENV=dev
+echo $APP_ENV
+

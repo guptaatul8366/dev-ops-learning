@@ -1,0 +1,10 @@
+{
+  "name": "Atul",
+  "role": "DevOps Learner",
+  "skills": ["Linux", "Git", "Docker", "Vagrant"],
+  "experience": {
+    "projects": 3,
+    "internship": false
+  }
+}
+
