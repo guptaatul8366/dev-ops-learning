@@ -97,3 +97,14 @@ Bash scripting is used for automating repetitive tasks and managing Linux server
 - Used variables and loops to avoid repetitive code
 - Downloaded templates using `wget`, extracted using `unzip`
 - Executed deployments remotely from a control node (scriptbox)
+
+## 🤖 AI for Scripting
+
+- Used AI tools for Bash scripting assistance
+- Autocomplete and syntax support
+- Applying best practices and code improvements
+- Reviewing AI-generated suggestions
+- Writing and validating scripts with AI assistance
+
+
+
