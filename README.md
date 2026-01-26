@@ -60,4 +60,14 @@ This repository documents my step-by-step DevOps learning journey with hands-on 
 
 To build strong practical skills in DevOps and Cloud technologies and prepare for DevOps Engineer roles.
 
+## 📡 Networking Fundamentals
+
+Networking is a core foundation for DevOps, Cloud, and Security.
+
+**Topics covered:**
+- OSI Model & ISO standards
+- IP Addressing (IPv4, Public vs Private IP)
+- Common Protocols & Ports (HTTP, HTTPS, SSH, DNS)
+- TCP vs UDP
+- Linux Networking Commands for troubleshooting
 
