@@ -71,3 +71,10 @@ Networking is a core foundation for DevOps, Cloud, and Security.
 - TCP vs UDP
 - Linux Networking Commands for troubleshooting
 
+## 🐳 Docker & Containers
+
+- Containerization using Docker
+- Docker commands & Dockerfile
+- Multi-container applications using Docker Compose
+- VProfile multi-tier application on containers
+- Microservices architecture & projects
