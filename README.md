@@ -78,3 +78,22 @@ Networking is a core foundation for DevOps, Cloud, and Security.
 - Multi-container applications using Docker Compose
 - VProfile multi-tier application on containers
 - Microservices architecture & projects
+
+## 🐚 Bash Scripting & Automation
+
+Bash scripting is used for automating repetitive tasks and managing Linux servers in DevOps environments.
+
+**Topics & Hands-on Work:**
+- Bash scripting fundamentals (VM-based lab)
+- Variables, command-line arguments, quotes & command substitution
+- User input, decision making, and loops (for / while)
+- System monitoring scripts
+- Remote command execution using SSH
+- SSH key-based authentication for passwordless access
+- Automated multi-node website deployment using Bash and SSH
+
+**Final Automation Project:**
+- Deployed 3 different website templates on 3 different VMs (web01, web02, web03)
+- Used variables and loops to avoid repetitive code
+- Downloaded templates using `wget`, extracted using `unzip`
+- Executed deployments remotely from a control node (scriptbox)
