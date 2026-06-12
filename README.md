@@ -1,110 +1,281 @@
-# DevOps Learning Journey – Atul Gupta
+# 🚀 DevOps Learning Journey – Atul Gupta
 
-This repository documents my step-by-step DevOps learning journey with hands-on practice and projects.
+Welcome to my DevOps learning repository! This repository documents my hands-on journey through DevOps, Cloud Computing, Automation, CI/CD, Containers, and Infrastructure Engineering.
 
-## ✅ Completed Sections
+My goal is not just to complete courses, but to build real-world projects, understand the underlying concepts, and gain practical experience with industry-standard DevOps tools and workflows.
 
-### 🔹 DevOps Introduction & CI/CD Basics
-- What is DevOps
-- SDLC and CI/CD pipelines
-- DevOps tools overview
+---
 
-### 🔹 Prerequisites & Environment Setup
-- Linux installation
-- VirtualBox and Vagrant setup
-- SSH and networking basics
+# 📚 Learning Progress
 
-### 🔹 Virtualization & VM Setup
-- Creating VMs using Vagrant
-- VM networking modes
-- Synced folders
+## ✅ Completed Modules
 
-### 🔹 Linux Fundamentals
-- Linux file system
-- Users and permissions
-- Package management (apt, dnf)
-- systemctl and services
+### 🔰 DevOps Fundamentals
 
-### 🔹 Git & GitHub
-- Repository management
-- Branching strategies
-- Rollback and reset
-- Tags and versioning
-- Pull requests
+* DevOps Culture & Principles
+* Software Development Life Cycle (SDLC)
+* Continuous Integration (CI)
+* Continuous Delivery & Deployment (CD)
+* DevOps Toolchain Overview
 
-### 🔹 Section 6: Vagrant and Linux Servers
-- Single and Multi-VM Vagrant setups
-- Private IP, RAM and CPU configuration
-- Shell provisioning
-- Apache website hosting
-- WordPress setup (manual and automated)
-- Tomcat service using systemctl
-- Infrastructure as Code fundamentals
+---
 
-### 🔹 Section 7: Variables, JSON and YAML
-- Variables in shell and Python
-- Python data structures
-- JSON format and parsing
-- YAML configuration files
-- DevOps configuration examples
+### 🖥️ Linux Administration
 
-## 🚀 Upcoming Sections
+* Linux File System
+* User & Group Management
+* File Permissions
+* Package Management
+* Process Management
+* Service Management with `systemctl`
+* Linux Troubleshooting
 
-- Multi-tier DevOps Project (VProfile App)
-- Jenkins CI/CD Pipelines
-- Docker & Containerization
-- Ansible Automation
-- Cloud & Kubernetes
+---
 
-## 🎯 Goal
+### 🔐 Git & GitHub
 
-To build strong practical skills in DevOps and Cloud technologies and prepare for DevOps Engineer roles.
+* Repository Management
+* Branching Strategies
+* Merge & Rebase
+* Pull Requests
+* Tags & Releases
+* Rollback & Reset
+* SSH Authentication
+* Collaboration Workflows
 
-## 📡 Networking Fundamentals
+---
 
-Networking is a core foundation for DevOps, Cloud, and Security.
+### ⚙️ Vagrant & Virtualization
 
-**Topics covered:**
-- OSI Model & ISO standards
-- IP Addressing (IPv4, Public vs Private IP)
-- Common Protocols & Ports (HTTP, HTTPS, SSH, DNS)
-- TCP vs UDP
-- Linux Networking Commands for troubleshooting
+* Virtual Machine Provisioning
+* Multi-VM Environments
+* Resource Allocation (CPU/RAM)
+* Shell Provisioning
+* Infrastructure as Code (IaC) Basics
 
-## 🐳 Docker & Containers
+---
 
-- Containerization using Docker
-- Docker commands & Dockerfile
-- Multi-container applications using Docker Compose
-- VProfile multi-tier application on containers
-- Microservices architecture & projects
+### 🌐 Networking Fundamentals
 
-## 🐚 Bash Scripting & Automation
+* OSI Model
+* TCP/IP Model
+* IPv4 Addressing
+* Public vs Private IPs
+* DNS Fundamentals
+* Common Protocols (HTTP, HTTPS, SSH, FTP)
+* TCP vs UDP
+* Linux Networking Commands
+* Network Troubleshooting
 
-Bash scripting is used for automating repetitive tasks and managing Linux servers in DevOps environments.
+---
 
-**Topics & Hands-on Work:**
-- Bash scripting fundamentals (VM-based lab)
-- Variables, command-line arguments, quotes & command substitution
-- User input, decision making, and loops (for / while)
-- System monitoring scripts
-- Remote command execution using SSH
-- SSH key-based authentication for passwordless access
-- Automated multi-node website deployment using Bash and SSH
+### 📄 JSON & YAML
 
-**Final Automation Project:**
-- Deployed 3 different website templates on 3 different VMs (web01, web02, web03)
-- Used variables and loops to avoid repetitive code
-- Downloaded templates using `wget`, extracted using `unzip`
-- Executed deployments remotely from a control node (scriptbox)
+* Data Serialization Formats
+* Configuration Management
+* Parsing & Validation
+* DevOps Configuration Files
 
-## 🤖 AI for Scripting
+---
 
-- Used AI tools for Bash scripting assistance
-- Autocomplete and syntax support
-- Applying best practices and code improvements
-- Reviewing AI-generated suggestions
-- Writing and validating scripts with AI assistance
+### 🐚 Bash Scripting & Automation
 
+* Variables & Arguments
+* Loops & Conditions
+* Functions
+* SSH Automation
+* Remote Command Execution
+* Server Administration Scripts
 
+#### 🚀 Automation Project
 
+* Automated deployment of website templates across multiple Linux servers.
+* Implemented reusable scripts using loops and variables.
+* Managed deployments from a centralized control node.
+* Automated remote execution using SSH-based authentication.
+
+---
+
+### 🤖 AI for Scripting
+
+* AI-Assisted Bash Scripting
+* Script Optimization
+* Code Review & Refactoring
+* Productivity Enhancements
+* Automation Best Practices
+
+---
+
+### ☁️ AWS Fundamentals
+
+* IAM (Identity & Access Management)
+* EC2 Instances
+* Security Groups
+* Key Pairs
+* Cloud Architecture Fundamentals
+* Infrastructure Design Concepts
+
+---
+
+### 🏗️ Build Tools
+
+* Maven Fundamentals
+* Dependency Management
+* Build Lifecycle
+* Artifact Generation
+
+---
+
+### 🐳 Docker & Containerization
+
+* Docker Architecture
+* Docker Images & Containers
+* Dockerfile Creation
+* Docker Networking
+* Docker Volumes
+* Docker Compose
+* Multi-Container Applications
+* Containerized Deployments
+
+---
+
+### 🔧 Jenkins CI/CD
+
+#### 🚀 End-to-End CI/CD Project
+
+Built a complete CI/CD pipeline using:
+
+* Jenkins
+* Docker
+* GitHub
+* SSH Authentication
+* GitHub Webhooks
+* Ngrok
+
+### 📈 Pipeline Architecture
+
+```text
+Developer
+    ↓
+Git Push
+    ↓
+GitHub
+    ↓
+GitHub Webhook
+    ↓
+Ngrok Tunnel
+    ↓
+Jenkins Pipeline
+    ↓
+Clone Repository
+    ↓
+Docker Build
+    ↓
+Stop Old Container
+    ↓
+Run New Container
+    ↓
+Application Running
+```
+
+### 🎯 Key Learnings
+
+* Jenkins Pipeline Development
+* Docker CLI vs Docker Daemon
+* Docker Socket Mounting
+* GitHub SSH Authentication
+* GitHub Webhook Integration
+* CI/CD Pipeline Automation
+* Automated Docker Deployments
+* Container Lifecycle Management
+
+### 🏆 Challenges Solved
+
+* Configured Jenkins inside Docker.
+* Installed Docker CLI inside Jenkins container.
+* Mounted Docker Socket for Docker access.
+* Resolved Docker permission issues.
+* Configured SSH Authentication with GitHub.
+* Implemented GitHub Webhook automation.
+* Exposed local Jenkins using Ngrok.
+* Automated build and deployment workflows.
+
+---
+
+# 🚀 Upcoming Roadmap
+
+### 🔹 Source Control & CI/CD
+
+* GitHub Actions
+* GitLab CI/CD
+
+### 🔹 Programming & Automation
+
+* Python for DevOps
+* Terraform
+* Ansible
+
+### 🔹 Monitoring & Observability
+
+* Monitoring Fundamentals
+* Metrics Collection
+* Logging & Alerting
+* Observability Best Practices
+
+### 🔹 Cloud Platforms
+
+* AWS Advanced Services
+* AWS CI/CD Project
+* Google Cloud Platform (GCP)
+
+### 🔹 Cloud-Native Technologies
+
+* Advanced Docker
+* Containerization Patterns
+* Kubernetes Fundamentals
+* Kubernetes Application Deployment
+
+### 🔹 GitOps
+
+* GitOps Workflows
+* Final GitOps Project
+
+---
+
+# 📂 Featured Projects
+
+### 🚀 Jenkins + Docker CI/CD Pipeline
+
+Automated application deployment using Jenkins, Docker, GitHub Webhooks, SSH Authentication, and Ngrok.
+
+### 🖥️ Multi-Server Bash Automation
+
+Automated website deployments across multiple Linux servers using Bash scripting and SSH.
+
+### 🐳 Containerized Application Deployment
+
+Built and deployed multi-container applications using Docker and Docker Compose.
+
+---
+
+# 🎯 Career Goal
+
+To become a skilled DevOps Engineer capable of designing, automating, deploying, and managing scalable cloud-native infrastructure using modern DevOps practices and tools.
+
+---
+
+## 📈 Current Focus
+
+```text
+Linux → Git → Networking → Docker → Jenkins → AWS
+                                      ↓
+                            Terraform → Ansible
+                                      ↓
+                                Kubernetes
+                                      ↓
+                                   GitOps
+```
+
+⭐ Learning by building.
+⭐ Documenting every step.
+⭐ Turning theory into real-world projects.
