@@ -1,0 +1,44 @@
+name: vprofile workflow ci/cd
+
+on:
+  push:
+    branches:
+      -main
+      -develop
+
+  pull_request:
+    branches:
+      -main
+      -develop
+
+  workflow_manual_dispatch:
+
+  schedule:
+    -cron: "0 14 * *" # afternoon run at 2 PM UTC
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: code checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+        name: maven build
+        run: mvn install  
+
+  Testing:
+    runs-on: ubuntu-latest
+    needs: Build
+    steps:
+      - name: code checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  
+
+        name: run tests for main branch merge
+        run: mvn test
+
+        name: checkstyle
+        run: mvn checkstyle:checkstyle      
