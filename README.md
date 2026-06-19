@@ -203,11 +203,77 @@ Application Running
 LINK OF MY PROJECT REPO:https://github.com/guptaatul8366/docker_demo.git
 ---
 
+### 🚀 GitHub Actions CI/CD
+
+#### 🚀 CI/CD Workflow Project
+
+Built a complete GitHub Actions workflow integrating:
+
+* GitHub Actions
+* Maven
+* Docker
+* AWS IAM
+* Amazon ECR
+* Trivy Security Scanner
+
+### 📈 Workflow Architecture
+
+```text
+Developer
+    ↓
+Git Push
+    ↓
+GitHub Repository
+    ↓
+GitHub Actions Workflow
+    ↓
+Code Checkout
+    ↓
+Maven Build
+    ↓
+Unit Testing
+    ↓
+Checkstyle Analysis
+    ↓
+Trivy Security Scan
+    ↓
+Docker Image Build
+    ↓
+Amazon ECR Push
+    ↓
+Deployment Ready
+```
+
+### 🎯 Key Learnings
+
+* GitHub Actions Workflow Development
+* Workflow Triggers (Push, Pull Request, Schedule, Manual)
+* GitHub Runners
+* Job Dependencies using needs
+* GitHub Secrets & Variables
+* Artifact Management
+* AWS Authentication
+* Amazon ECR Integration
+* Docker Image Build & Push
+* Security Scanning with Trivy
+* CI/CD Pipeline Automation
+
+### 🏆 Challenges Solved
+
+* Configured GitHub Secrets and Variables
+* Integrated AWS IAM Credentials
+* Connected GitHub Actions with Amazon ECR
+* Built and Tagged Docker Images using Commit SHA
+* Uploaded Build Artifacts
+* Implemented Security Scanning
+* Created Multi-Stage CI/CD Workflow
+* Automated Container Image Publishing
+
+
 # 🚀 Upcoming Roadmap
 
 ### 🔹 Source Control & CI/CD
 
-* GitHub Actions
 * GitLab CI/CD
 
 ### 🔹 Programming & Automation
